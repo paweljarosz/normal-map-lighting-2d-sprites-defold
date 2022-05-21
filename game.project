@@ -1,0 +1,24 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /main/pipeline.renderc
+
+[script]
+shared_state = 1
+
+[display]
+width = 960
+height = 640
+
+[android]
+input_method = HiddenInputField
+
+[project]
+title = RenderPipeline
+
+[graphics]
+default_texture_mag_filter = nearest
+default_texture_min_filter = nearest
+
+[sprite]
+subpixels = 1
+
